@@ -1,10 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Reference
 
-- [Animelist Using NextJs](https://youtube.com/playlist?list=PLc6SEcJkQ6DwSCyM53kqpM1yNyXT80d3U&si=TYuqwBnKtkr6jHYi) - Animelist.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Cuy University - Semester 4 (Big Project) By Dea Afrizal](https://youtube.com/playlist?list=PLc6SEcJkQ6DwSCyM53kqpM1yNyXT80d3U&si=TYuqwBnKtkr6jHYi) - Animelist.
 
 ## Getting Started
 

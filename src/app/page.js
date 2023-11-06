@@ -1,35 +1,21 @@
 import AnimeList from "@/components/AnimeList"
-import Link from "next/link"
-const Home = async () => {
+import Header from "@/components/AnimeList/Header"
+const Page = async () => {
   const response = await fetch(
     `${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime?limit=8`
   )
-  const anime = await response.json()
+  const response2 = await fetch(
+    `${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime?limit=8`
+  )
+  const topAnime = await response.json()
+  const NewAnime = await response2.json()
   return (
     <div>
-      <div className="flex items-center justify-between p-4">
-        <h1 className="text-2xl font-bold">Paling Populer</h1>
-        <Link
-          href="/populer"
-          className="underline transition-all text-md md:text-xl hover:text-indigo-500"
-        >
-          Lihat Semua
-        </Link>
-      </div>
-      <div className="grid grid-cols-2 gap-4 px-4 sm:grid-cols-3 md:grid-cols-4">
-        {anime.data.map((data) => {
-          return (
-            <div key={data.mal_id} className="shadow-xl ">
-              <AnimeList
-                title={data.title}
-                images={data.images.webp.image_url}
-                id={data.mal_id}
-              />
-            </div>
-          )
-        })}
-      </div>
+      <section>
+        <Header title="Top Anime" linkHref="/populer" linkTitle="See All" />
+        <AnimeList api={topAnime} />
+      </section>
     </div>
   )
 }
-export default Home
+export default Page

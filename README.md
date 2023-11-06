@@ -1,6 +1,6 @@
 ## Reference
 
-- [Cuy University - Semester 4 (Big Project) By Dea Afrizal](https://youtube.com/playlist?list=PLc6SEcJkQ6DwSCyM53kqpM1yNyXT80d3U&si=TYuqwBnKtkr6jHYi) - Animelist.
+- [Cuy University - Semester 4 (Big Project) By Dea Afrizal](https://youtube.com/playlist?list=PLc6SEcJkQ6DwSCyM53kqpM1yNyXT80d3U&si=TYuqwBnKtkr6jHYi) - Next Js 2023 (Animelist).
 
 ## Getting Started
 

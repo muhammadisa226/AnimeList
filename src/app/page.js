@@ -1,4 +1,3 @@
-"use-client"
 import AnimeList from "@/components/AnimeList"
 import Link from "next/link"
 const Home = async () => {

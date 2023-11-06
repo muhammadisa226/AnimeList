@@ -1,8 +1,7 @@
 const Populer = () => {
   return (
     <>
-      <h1>Populer Page</h1>
-      <p>Ini Halaman Populer</p>
+      <h1>Popular Page</h1>
     </>
   )
 }
